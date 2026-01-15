@@ -1,5 +1,16 @@
 # @langchain/langgraph
 
+## 1.0.16
+
+### Patch Changes
+
+- [#1901](https://github.com/langchain-ai/langgraphjs/pull/1901) [`6d8f3ed`](https://github.com/langchain-ai/langgraphjs/commit/6d8f3ed4c879419d941a25ee48bed0d5545add4d) Thanks [@dqbd](https://github.com/dqbd)! - Perform reference equality check on reducers before throwing "Channel already exists with a different type" error
+
+- [#1842](https://github.com/langchain-ai/langgraphjs/pull/1842) [`7ddf854`](https://github.com/langchain-ai/langgraphjs/commit/7ddf85468f01b8cfea62b1c513e04bd578580444) Thanks [@hntrl](https://github.com/hntrl)! - Introduce StateSchema, ReducedValue, and UntrackedValue. Adding support for Standard Schema for StateGraph state definition and input validation.
+
+- Updated dependencies [[`5629d46`](https://github.com/langchain-ai/langgraphjs/commit/5629d46362509f506ab455389e600eff7d9b34bb), [`78743d6`](https://github.com/langchain-ai/langgraphjs/commit/78743d6bca96945d574713ffefe32b04a4c04d29)]:
+  - @langchain/langgraph-sdk@1.5.4
+
 ## 1.0.15
 
 ### Patch Changes
